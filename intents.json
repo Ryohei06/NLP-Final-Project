@@ -1,0 +1,54 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hey :-)", "Hello, thanks for chatting NBA Info Center", "Hi there, what can I do for you?"]
+      },
+      {
+         "tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["Bye! Have a nice day", "Bye! Come back again soon."]
+      },
+      {
+         "tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+         "tag": "teams",
+         "patterns": ["Which teams played in the 2021-2022 NBA season?", "List NBA teams for 2021-2022", "What teams participated in the NBA 2021-2022 season?"],
+         "responses": ["The teams in the NBA 2021-2022 season included: Atlanta Hawks, Boston Celtics, Brooklyn Nets, Charlotte Hornets, Chicago Bulls, Cleveland Cavaliers, Dallas Mavericks, Denver Nuggets, Detroit Pistons, Golden State Warriors, Houston Rockets, Indiana Pacers, LA Clippers, Los Angeles Lakers, Memphis Grizzlies, Miami Heat, Milwaukee Bucks, Minnesota Timberwolves, New Orleans Pelicans, New York Knicks, Oklahoma City Thunder, Orlando Magic, Philadelphia 76ers, Phoenix Suns, Portland Trail Blazers, Sacramento Kings, San Antonio Spurs, Toronto Raptors, Utah Jazz, Washington Wizards."]
+      },
+      {
+         "tag": "standings",
+         "patterns": ["What were the standings in the NBA 2021-2022 season?", "Show me the NBA standings for 2021-2022", "How did the teams rank in the 2021-2022 NBA season?"],
+         "responses": ["The top teams in the Eastern Conference were: 1. Miami Heat, 2. Boston Celtics, 3. Milwaukee Bucks, 4. Philadelphia 76ers, 5. Toronto Raptors. The top teams in the Western Conference were: 1. Phoenix Suns, 2. Memphis Grizzlies, 3. Golden State Warriors, 4. Dallas Mavericks, 5. Utah Jazz."]
+      },
+      {
+         "tag": "players",
+         "patterns": ["Who were the top players in the NBA 2021-2022 season?", "List some players from the NBA 2021-2022 season", "Name a few NBA players from the 2021-2022 season"],
+         "responses": ["Some notable players from the NBA 2021-2022 season were: Stephen Curry, LeBron James, Kevin Durant, Giannis Antetokounmpo, Nikola Jokic, Luka Doncic, Joel Embiid, Jayson Tatum, Devin Booker, Ja Morant."]
+      },
+      {
+         "tag": "coaches",
+         "patterns": ["Who were the coaches in the NBA 2021-2022 season?", "List some coaches from the NBA 2021-2022 season", "Name a few NBA coaches from the 2021-2022 season"],
+         "responses": ["Some notable coaches from the NBA 2021-2022 season were: Steve Kerr (Golden State Warriors), Erik Spoelstra (Miami Heat), Monty Williams (Phoenix Suns), Ime Udoka (Boston Celtics), Mike Budenholzer (Milwaukee Bucks)."]
+      },
+      {
+         "tag": "awards",
+         "patterns": ["Who won the awards in the NBA 2021-2022 season?", "List the award winners for the NBA 2021-2022 season", "Who were the MVP and other award winners in the 2021-2022 NBA season?"],
+         "responses": ["The award winners for the NBA 2021-2022 season included: MVP - Nikola Jokic, Rookie of the Year - Scottie Barnes, Defensive Player of the Year - Marcus Smart, Sixth Man of the Year - Tyler Herro, Most Improved Player - Ja Morant."]
+      },
+      {
+         "tag": "mvp",
+         "patterns": ["Who was the MVP in the NBA 2021-2022 season?", "whos the MVP", "Who were the MVP in the 2021-2022 NBA season?"],
+         "responses": ["The NBA 2021-2022 season MVP - Nikola Jokic"]
+      },
+      {
+         "tag": "champions",
+         "patterns": ["Who won the NBA championship in 2021-2022?", "Which team was the NBA champion for the 2021-2022 season?", "Who were the champions of the NBA 2021-2022 season?", "Who won the NBA championship","Who won championship", "Who was the champion"],
+         "responses": ["The Golden State Warriors won the NBA championship in the 2021-2022 season, defeating the Boston Celtics in the Finals."]
+      }
+   ]
+}
